@@ -9,30 +9,23 @@ li {
 	text-decoration: none;
 	list-style: none;
 }
-.wrapper {
-	display: flex;
-	flex-direction: column;
-}
-.page {
-	flex: 1 1 auto;
-}
 .logo {
 	background-color: none;
 	width: 15%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .graficlogo {
 	padding: 5px;
 	max-width: 100%;
 	box-sizing: border-box;
-	width: 90px;
-	height: 90px;
+	width:90px; 
+	height:90px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto
 }
 nav {
 	margin: auto;
@@ -45,13 +38,13 @@ nav {
 	font-size: 24px;
 	margin: 20px;
 }
-.pad a {
+.pad a{
 	color: black;
 	text-align: center;
 	padding: 14px 20px;
 	font-size: 17px;
 }
-.pad a:hover {
+.pad a:hover{
 	border-bottom: 2px solid orange;
 }
 .bg {
@@ -59,27 +52,29 @@ nav {
 	height: 400px;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
+    margin-right: auto;
+    max-width: 100%;
 }
 h1 {
 	font-size: 30px;
 	margin-top: 50px;
 	text-align: center;
+
 }
-footer {
+footer	{
 	width: 100%;
 	height: auto;
 	background-color: orange;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 10px;
+
 }
 .topicon {
 	width: 30px;
 }
 footer a {
-	color: black;
+	color:black;
 	font-size: 14px;
 	margin-left: 10px;
 }
@@ -112,26 +107,26 @@ footer nav a:hover {
 	max-width: 100%;
 	opacity: 0.7;
 }
-.photo img:hover {
+.photo img:hover{
 	opacity: 1;
 }
 .name {
 	text-align: center;
 	opacity: 0.7;
 }
-.name:hover {
+.name:hover{
 	opacity: 1;
 }
-.photo a {
+.photo a{
 	color: black;
 }
 .contact {
 	text-align: center;
-	display: block;
+	display: block;	
 	margin-top: 50px;
 	margin-bottom: 100px;
 }
-.contact img {
+.contact img{
 	width: 30px;
 }
 .about {
@@ -157,6 +152,7 @@ footer nav a:hover {
 .photo1 {
 	width: 400px;
 	margin: 10px;
+
 }
 .photo1 img {
 	box-sizing: border-box;
@@ -207,7 +203,7 @@ textarea {
 .button-submit {
 	float: left;
 	width: 100%;
-	border: 0px;
+	border:0px;
 	cursor: pointer;
 	background-color: orange;
 	color: white;
@@ -218,10 +214,10 @@ textarea {
 	margin-top: -4px;
 	font-weight: 300;
 }
-.button-submit:hover {
+.button-submit:hover{
 	background-color: white;
 	color: orange;
-	border: 1px solid orange;
+	border:1px solid orange;
 }
 .ease {
 	width: 0px;
